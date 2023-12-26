@@ -1,0 +1,54 @@
+.card-image {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.card{
+  border: 1px solid black;
+}
+
+.card-image:hover{
+    scale: 1.2;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.2em;
+}
+
+.card-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-top: 1em;
+}
+
+
+/* Kayan yazı */
+/* .card-body {
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+
+
+
+
