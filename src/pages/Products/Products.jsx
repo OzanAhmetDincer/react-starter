@@ -24,7 +24,7 @@ export default function Products() {
         <div className="row justify-content-end">
           <div className="col-auto">
             <button className="btn btn-primary">
-              <Link style={{ color: "white" }} to={"/productadd"}>
+              <Link style={{ color: "white" }} to={"/productadd"} className="text-decoration-none">
                 Ürün Ekle
               </Link>
             </button>

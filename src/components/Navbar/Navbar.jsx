@@ -7,9 +7,9 @@ function Navbar() {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#home">
-          Navbar
-        </a>
+        <Link style={{ color: "white" }} className="text-decoration-none navbar-brand" to={"/"}>
+          Ana Sayfa
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

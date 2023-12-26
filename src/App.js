@@ -12,8 +12,8 @@ import ProductAdd from "./pages/Products/ProductAdd";
 export default function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/products" element={<Products />}></Route>
